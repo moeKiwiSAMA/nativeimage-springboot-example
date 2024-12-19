@@ -6,5 +6,4 @@ jobs:
     runs-on: gradle:8.7-jdk-21-and-22-graal
     steps:
       - uses: actions/checkout@v4
-      - run: gradle build
-      - run: gradle build:nativeCompile
+      - run: gradle nativeCompile
