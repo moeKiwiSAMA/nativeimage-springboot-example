@@ -2,7 +2,7 @@ name: native-image-actions
 run-name: Actions build native image
 on: [push]
 jobs:
-  check-bats-version:
+  check-image-version:
     runs-on: gradle:8.7-jdk-21-and-22-graal
     steps:
       - uses: actions/checkout@v4
